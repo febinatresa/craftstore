@@ -52,6 +52,8 @@ public class CraftStorePage {
 	WebElement itemBalloon;
 	
 	//*[@id="Updates_43714996469984:b32ead22122c6e2897a70b602746a4be"]
+	//@FindBy(xpath="//*[@id=\"Updates_43466106470624:bc2143fd79bc068146cc50761f5a5671\"]")
+	
 	@FindBy(xpath="//*[@id=\"Updates_43466106470624:bc2143fd79bc068146cc50761f5a5671\"]")
 	WebElement quantityInput;
 	

@@ -58,6 +58,7 @@ public class CraftStoreTest {
 		
 		driver.get("https://craftstoreofindia.com/");
 		CraftStorePage ob=new CraftStorePage(driver);
+		Thread.sleep(3000);
 		ob.addMultipleQuantity();	
 			
 	}
